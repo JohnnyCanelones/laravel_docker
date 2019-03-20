@@ -7,11 +7,16 @@ cp .env.example .env
 
 Y le configuramos las variables que hacen sentido con nuestro contenedor
 
-DB_CONNECTION=mysql;
+DB_CONNECTION=mysql
+
 DB_HOST=db
+
 DB_PORT=3306
+
 DB_DATABASE=laravel
+
 DB_USERNAME=usuario_laravel
+
 DB_PASSWORD=el_password_de_la_app
 
 Y finalmente
