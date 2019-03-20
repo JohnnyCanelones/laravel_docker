@@ -34,7 +34,8 @@ Con lo cual agregamos una llave de encripción generada para este contenedor, y 
 ### Migrando Datos
 Ahora que ya tenemos todo montado, ya deberíamos ser capaces de ver nuestra aplicación en el navegador. Y para migrar la data necesitamos crear un usuario para la base de datos. Entonces primero accedemos a la base de datos asi:
 
-```docker-compose exec db bash
+```
+docker-compose exec db bash
 ```
 Y luego accedemos al cliente de mysql:
 ```
